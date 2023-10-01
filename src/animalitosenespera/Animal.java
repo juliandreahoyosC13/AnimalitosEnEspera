@@ -6,4 +6,63 @@ public class Animal {
     String nombre,raza,grupo;
     double edad;
     boolean vacunas;
+    
+    //Constructor vacio
+
+    public Animal() {
+    }
+    
+    //Constructor con atributos
+
+    public Animal(String nombre, String raza, String grupo, double edad, boolean vacunas) {
+        this.nombre = nombre;
+        this.raza = raza;
+        this.grupo = grupo;
+        this.edad = edad;
+        this.vacunas = vacunas;
+    }
+     
+    //Getter and Setter
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public String getGrupo() {
+        return grupo;
+    }
+
+    public void setGrupo(String grupo) {
+        this.grupo = grupo;
+    }
+
+    public double getEdad() {
+        return edad;
+    }
+
+    public void setEdad(double edad) {
+        this.edad = edad;
+    }
+
+    public boolean isVacunas() {
+        return vacunas;
+    }
+
+    public void setVacunas(boolean vacunas) {
+        this.vacunas = vacunas;
+    }
+    
+    
 }
