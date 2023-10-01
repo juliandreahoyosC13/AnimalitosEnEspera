@@ -6,4 +6,8 @@ public class Hamster {
     String nombre,raza,grupo;
     double edad;
     boolean vacunas;
+    
+    public void Jugar(){
+        
+    }
 }

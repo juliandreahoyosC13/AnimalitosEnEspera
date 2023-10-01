@@ -4,5 +4,9 @@ package animalitosenespera;
 public class Gato {
     String nombre,raza,grupo;
     double edad;
-    boolean vacunas;  
+    boolean vacunas;
+    
+    public void Maullar(){
+        
+    }
 }

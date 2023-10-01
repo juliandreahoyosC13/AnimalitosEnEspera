@@ -5,4 +5,8 @@ public class Conejo {
     String nombre,raza,grupo;
     double edad;
     boolean vacunas;
+    
+    public void Comer(){
+        
+    }
 }

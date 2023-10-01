@@ -8,4 +8,10 @@ public class Perro {
     String nombre,raza,grupo;
     double edad;
     boolean vacunas;
+    
+    //Generando primer metodo
+    public void Caminar(){
+        
+    }
+    
 }
