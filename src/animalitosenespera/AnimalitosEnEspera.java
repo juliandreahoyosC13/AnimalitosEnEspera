@@ -1,20 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package animalitosenespera;
 
-/**
- *
- * @author Usuario
- */
 public class AnimalitosEnEspera {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Perro perrito1 = new Perro();
+        perrito1.vacunas = true;
+        perrito1.edad = 6;
+        perrito1.nombre = "Tamarindo";
+        perrito1.grupo = "Mamifero";
+        perrito1.raza = "Criollo";
+        
+        Conejo conejito1  = new Conejo();
+        conejito1.nombre = "Nube";
+        conejito1.vacunas = true;
+        conejito1.raza = "Californiano";
+        
+
     }
     
 }
