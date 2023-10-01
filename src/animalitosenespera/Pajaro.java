@@ -5,4 +5,8 @@ public class Pajaro {
     String nombre,raza,grupo;
     double edad;
     boolean vacunas;
+    
+    public void Volar(){
+        
+    }
 }
