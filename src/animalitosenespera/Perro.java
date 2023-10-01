@@ -8,9 +8,25 @@ public class Perro {
     String nombre,raza,grupo;
     double edad;
     boolean vacunas;
+
+    //Creando constructor vacio
+    public Perro() {
+    }
+    
+    //Creando contructor con parametros
+
+    public Perro(String nombre, String raza, String grupo, double edad, boolean vacunas) {
+        this.nombre = nombre;
+        this.raza = raza;
+        this.grupo = grupo;
+        this.edad = edad;
+        this.vacunas = vacunas;
+    }
+    
     
     //Generando primer metodo
     public static void Caminar(){
+      
         
     }
     

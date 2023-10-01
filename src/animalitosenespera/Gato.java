@@ -6,7 +6,4 @@ public class Gato {
     double edad;
     boolean vacunas;
     
-    public static void Maullar(){
-        
     }
-}
