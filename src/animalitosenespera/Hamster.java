@@ -2,9 +2,6 @@
 
 package animalitosenespera;
 
-public class Hamster {
-    String nombre,raza,grupo;
-    double edad;
-    boolean vacunas;
+public class Hamster extends Animal {
     
 }
