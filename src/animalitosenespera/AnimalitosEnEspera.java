@@ -15,7 +15,10 @@ public class AnimalitosEnEspera {
         conejito1.nombre = "Nube";
         conejito1.vacunas = true;
         conejito1.raza = "Californiano";
-        
+        //Explorando uso de Getter & Setter
+        Perro perrito2 = new Perro();
+        perrito2.setNombre("Panderito");
+        System.out.println("El nombre del segundo perrito es: " + perrito2.getNombre());
         
         
 
