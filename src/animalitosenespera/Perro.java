@@ -10,7 +10,7 @@ public class Perro {
     boolean vacunas;
     
     //Generando primer metodo
-    public void Caminar(){
+    public static void Caminar(){
         
     }
     

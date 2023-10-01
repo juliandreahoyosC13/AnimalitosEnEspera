@@ -6,7 +6,7 @@ public class Pajaro {
     double edad;
     boolean vacunas;
     
-    public void Volar(){
+    public static void Volar(){
         
     }
 }

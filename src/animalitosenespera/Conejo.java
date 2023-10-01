@@ -6,7 +6,7 @@ public class Conejo {
     double edad;
     boolean vacunas;
     
-    public void Comer(){
+    public static void Comer(){
         
     }
 }

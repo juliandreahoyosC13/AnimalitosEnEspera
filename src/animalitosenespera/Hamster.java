@@ -7,7 +7,7 @@ public class Hamster {
     double edad;
     boolean vacunas;
     
-    public void Jugar(){
+    public static void Jugar(){
         
     }
 }
