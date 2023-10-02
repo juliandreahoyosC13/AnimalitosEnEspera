@@ -16,7 +16,7 @@ public class AnimalitosEnEspera {
         
         System.out.println("El gatito ingresado se llama " + gatito.getNombre() + " y es de raza " + gatito.getRaza());
         
-
+       
     }
     
 }
