@@ -20,48 +20,8 @@ public abstract class Animal {
         this.vacunas = vacunas;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getRaza() {
-        return raza;
-    }
-
-    public void setRaza(String raza) {
-        this.raza = raza;
-    }
-
-    public String getTipo() {
-        return tipo;
-    }
-
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
-    public double getEdad() {
-        return edad;
-    }
-
-    public void setEdad(double edad) {
-        this.edad = edad;
-    }
-
-    public boolean isVacunas() {
-        return vacunas;
-    }
-
-    public void setVacunas(boolean vacunas) {
-        this.vacunas = vacunas;
-    }
-    
-    
-
     public abstract String ComunicarSonido();
-
+  
+  
+  
 }
