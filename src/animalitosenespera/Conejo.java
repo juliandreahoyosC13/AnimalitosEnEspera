@@ -1,11 +1,34 @@
-//Animal Conejo
+ //Animal Conejo
 package animalitosenespera;
 
-public class Conejo extends Animal { 
+public class Conejo extends Animal implements Cualidades { 
+    
+    private String sonido;
+
+    public Conejo() {
+    }
+
+    public Conejo(String Sonido) {
+        this.sonido = Sonido;
+    }
+
+    public Conejo(String Sonido, String nombre, String raza, String tipo, double edad, boolean vacunas) {
+        super(nombre, raza, tipo, edad, vacunas);
+        this.sonido = Sonido;
+    }
 
     @Override
     public String ComunicarSonido() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        String sonido = "Ronroneo";
+        return sonido;    
     }
     
+    public String getSonido() {
+        return sonido;
+    }
+
+    public void setSonido(String sonido) {
+        this.sonido = sonido;
+    }
+
     }
